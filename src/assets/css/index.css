@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+html {
+   scroll-behavior: smooth;
+}
+
+.hero {
+   background-image: url("../image/bg.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.ACTIVE-DESKTOP::after {
+   content: "";
+   height: 5px;
+   width: 50%;
+   background-color: #415a80;
+   position: absolute;
+   bottom: -10px;
+   left: 0;
+   right: 0;
+   margin: auto;
+   border-radius: 50px;
+}
+
+.ACTIVE-MOBILE a svg {
+   fill: #415a80;
+}
