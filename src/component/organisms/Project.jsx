@@ -32,6 +32,7 @@ const Project = () => {
                         image={data.image === "" ? untitled : data.image}
                         alt={data.title}
                         url={data.url}
+                        icon={true}
                      />
                   </div>
                );

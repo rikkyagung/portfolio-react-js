@@ -9,8 +9,8 @@ export default function TextLarge() {
                I'm a Frontend Dev based in Bekasi, IDN. I interest to Web
                Development since 2019 and currently active to find a new
                collaboration. In my spare time, I'm in love with games and
-               upgrading my skills. ReactJs, Bootstrap, and Tailwind CSS are my
-               tools.
+               upgrading my skills. ReactJs, Bootstrap, Tailwind CSS, and
+               SASS/SCSS are my tools.
             </p>
             <ButtonAction
                types="secondary"

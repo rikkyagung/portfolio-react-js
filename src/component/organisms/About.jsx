@@ -9,7 +9,7 @@ export default function About() {
             <aside className="flex flex-col gap-5 md:gap-6 lg:mr-6">
                <CardAbout
                   image={briefcase}
-                  name="experience"
+                  name="Experience"
                   title="1 Year Internship"
                />
                <CardAbout image={task} name="Project" title="6 Completed" />

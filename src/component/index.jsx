@@ -15,6 +15,7 @@ import {
    Collab,
    Footer,
 } from "./organisms";
+import Home from "./pages/Home";
 
 export {
    ButtonAction,
@@ -32,4 +33,5 @@ export {
    Project,
    Collab,
    Footer,
+   Home,
 };

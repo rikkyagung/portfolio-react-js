@@ -3,42 +3,42 @@
       "id": 1,
       "name": "JMER",
       "title": "JMER application helps the company handle upcoming and ongoing events and manage the room that will be used as a meeting place.",
-      "image": "/image/JMER-01.png",
+      "image": "/image/JMER-01.webp",
       "url": "https://rikkyagung.github.io/clone-JMER/"
    },
    {
       "id": 2,
       "name": "Personal Portfolio",
       "title": "Designing and building my first dark themed portfolio website.",
-      "image": "",
+      "image": "/image/PORTFOLIO-1-01.webp",
       "url": "https://rikkyagung.github.io/"
    },
    {
       "id": 3,
       "name": "Final Project",
       "title": "Watch and play is an application that provides information about the most popular movies and games",
-      "image": "/image/SANBERCODE-01.png",
+      "image": "/image/SANBERCODE-01.webp",
       "url": "https://agung-batch32.netlify.app/"
    },
    {
       "id": 4,
       "name": "Weather App",
       "title": "The application used to get weather forecasts at that time in an area around the world",
-      "image": "/image/W-APP-01.png",
+      "image": "/image/W-APP-01.webp",
       "url": "https://weather-app-agung.netlify.app/"
    },
    {
       "id": 5,
-      "name": "Teknologi.id",
-      "title": "One of the most complete business publication media",
-      "image": "/image/SAGARA-02.png",
-      "url": ""
+      "name": "To Do List App",
+      "title": "Application that can see the activities you create as in progress or those that have been completed",
+      "image": "/image/TO-DO-LIST.webp",
+      "url": "https://rikkyagung.github.io/todo-reactJS/"
    },
    {
       "id": 6,
-      "name": "Personal Portfolio v2",
-      "title": "Made some changes to the appearance and tools used on the previous website",
-      "image": "",
+      "name": "Teknologi.id",
+      "title": "One of the most complete business publication media",
+      "image": "/image/SAGARA-02.webp",
       "url": ""
    }
 ]

@@ -7,8 +7,15 @@ html {
    scroll-behavior: smooth;
 }
 
+.card {
+   backdrop-filter: blur(2px) saturate(179%);
+   -webkit-backdrop-filter: blur(2px) saturate(180%);
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 12px;
+}
+
 .hero {
-   background-image: url("../image/bg.png");
+   background-image: url("../image/bg.webp");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;

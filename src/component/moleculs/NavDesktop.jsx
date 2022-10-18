@@ -19,8 +19,9 @@ export default function NavDesktop({ datas, isActive, setIsActive }) {
                   return (
                      <li
                         key={data.id}
+                        id={data.name}
                         onClick={(event) => {
-                           setIsActive(event.target.textContent);
+                           setIsActive(event.currentTarget.id);
                         }}
                         className={`${
                            isActive === data.name

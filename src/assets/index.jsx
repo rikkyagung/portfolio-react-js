@@ -2,7 +2,9 @@ import logo from "./image/logo.webp";
 import briefcase from "./image/bx-briefcase.svg";
 import task from "./image/bx-task.svg";
 import badgeCheck from "./image/bx-badge-check.svg";
-import untitled from "./image/Untitled-1.png";
+import chevronRight from "./image/bx-chevron-right.svg";
+import lock from "./image/bx-lock-alt.svg";
+import untitled from "./image/Untitled-1.webp";
 
 const homeSVG = (
    <svg
@@ -70,6 +72,8 @@ export {
    briefcase,
    task,
    badgeCheck,
+   chevronRight,
+   lock,
    homeSVG,
    aboutSVG,
    serviceSVG,
