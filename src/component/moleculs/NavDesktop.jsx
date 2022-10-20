@@ -17,20 +17,22 @@ export default function NavDesktop({ datas, isActive, setIsActive }) {
             <ul className="hidden w-full md:flex md:items-center md:justify-end md:gap-10">
                {datas?.map((data) => {
                   return (
-                     <li
-                        key={data.id}
-                        id={data.name}
-                        onClick={(event) => {
-                           setIsActive(event.currentTarget.id);
-                        }}
-                        className={`${
-                           isActive === data.name
-                              ? "ACTIVE-DESKTOP font-semibold text-sailor"
-                              : "opacity-80 hover:text-sailor hover:opacity-100"
-                        } relative`}
-                     >
-                        <a href={data.url}>{data.name}</a>
-                     </li>
+                     <a href={data.url}>
+                        <li
+                           key={data.id}
+                           id={data.name}
+                           onClick={(event) => {
+                              setIsActive(event.currentTarget.id);
+                           }}
+                           className={`${
+                              isActive === data.name
+                                 ? "ACTIVE-DESKTOP font-semibold text-sailor"
+                                 : "opacity-80 hover:text-sailor hover:opacity-100"
+                           } relative hover:font-semibold`}
+                        >
+                           {data.name}
+                        </li>
+                     </a>
                   );
                })}
             </ul>

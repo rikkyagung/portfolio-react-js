@@ -16,21 +16,21 @@
    {
       "id": 3,
       "name": "Final Project",
-      "title": "Watch and play is an application that provides information about the most popular movies and games",
+      "title": "Watch and play is an application that provides information about the most popular movies and games.",
       "image": "/image/SANBERCODE-01.webp",
       "url": "https://agung-batch32.netlify.app/"
    },
    {
       "id": 4,
       "name": "Weather App",
-      "title": "The application used to get weather forecasts at that time in an area around the world",
+      "title": "The application used to get weather forecasts at that time in an area around the world.",
       "image": "/image/W-APP-01.webp",
       "url": "https://weather-app-agung.netlify.app/"
    },
    {
       "id": 5,
       "name": "To Do List App",
-      "title": "Application that can see the activities you create as in progress or those that have been completed",
+      "title": "Application that can see the activities you create as in progress or those that have been completed.",
       "image": "/image/TO-DO-LIST.webp",
       "url": "https://rikkyagung.github.io/todo-reactJS/"
    },
