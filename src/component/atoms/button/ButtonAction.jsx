@@ -3,10 +3,10 @@ import { chevronRight, lock } from "../../../assets";
 
 export default function ButtonAction({ title, url, types, icon }) {
    const primary =
-      "h-[3.3rem] w-[8.5rem] rounded-full bg-sailor text-bright-gray shadow-lg shadow-sailor/60 md:h-14";
+      "border-none bg-sailor py-4 px-5 text-bright-gray shadow-lg shadow-sailor/60 dark:text-baby-powder md:h-14";
 
    const secondary =
-      "flex h-[3.3rem] w-[8.5rem] md:h-14 items-center justify-center rounded-full border-2 border-sailor bg-transparent text-mangu-black";
+      "flex items-center justify-center border-2 border-sailor bg-transparent py-2 px-7 text-mangu-black dark:text-baby-powder md:h-14";
 
    return (
       <a
@@ -16,10 +16,10 @@ export default function ButtonAction({ title, url, types, icon }) {
          <button
             disabled={url === ""}
             className={`${
-               url === "" ? "h- cursor-not-allowed disabled:opacity-60" : ""
+               url === "" ? "cursor-not-allowed disabled:opacity-60" : ""
             } ${types === "primary" ? primary : secondary} ${
-               icon ? "pr-5" : ""
-            }`}
+               icon ? "py-3 pr-10" : ""
+            } rounded-full dark:shadow-md dark:shadow-sailor/60`}
          >
             {url === "" ? "Private" : title}
          </button>

@@ -14,8 +14,15 @@ html {
    border-radius: 12px;
 }
 
-.hero {
-   background-image: url("../image/bg.webp");
+.HERO-LIGHT {
+   background-image: url("../image/light-bg.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.HERO-DARK {
+   background-image: url("../image/dark-bg.webp");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -34,6 +41,27 @@ html {
    border-radius: 50px;
 }
 
+.ACTIVE-MOBILE::after {
+   content: "";
+   height: 25%;
+   width: 25%;
+   background-color: #415a80;
+   position: absolute;
+   bottom: -10px;
+   left: 0;
+   right: 0;
+   margin: auto;
+   border-radius: 50px;
+}
+
 .ACTIVE-MOBILE a svg {
    fill: #415a80;
+}
+
+.LIGHT-ICON a svg {
+   fill: #1b1c22;
+}
+
+.DARK-ICON a svg {
+   fill: white;
 }

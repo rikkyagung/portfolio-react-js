@@ -4,7 +4,6 @@ import task from "./image/bx-task.svg";
 import badgeCheck from "./image/bx-badge-check.svg";
 import chevronRight from "./image/bx-chevron-right.svg";
 import lock from "./image/bx-lock-alt.svg";
-import untitled from "./image/Untitled-1.webp";
 
 const homeSVG = (
    <svg
@@ -79,5 +78,4 @@ export {
    serviceSVG,
    projectSVG,
    contactSVG,
-   untitled,
 };

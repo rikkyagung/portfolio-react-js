@@ -14,9 +14,12 @@ export default function Service() {
    ];
 
    return (
-      <section id="service" className="py-8 text-center text-mangu-black">
+      <section
+         id="service"
+         className="py-8 text-center text-mangu-black dark:text-baby-powder"
+      >
          <Title subText="Select The Offer" text="Service" />
-         <article className="mt-8 grid gap-4 rounded-lg bg-midwinter-mist p-6 md:grid-cols-3 md:items-center md:gap-10 lg:p-8">
+         <article className="mt-8 grid gap-4 rounded-lg bg-midwinter-mist p-6 text-mangu-black md:grid-cols-3 md:items-center md:gap-10 lg:p-8">
             <h3 className="text-2xl font-semibold md:leading-relaxed">
                Frontend Development
             </h3>
@@ -25,7 +28,10 @@ export default function Service() {
                   {skills.length > 0 &&
                      skills.map((skill, index) => {
                         return (
-                           <li key={index} className="flex items-center gap-2">
+                           <li
+                              key={index}
+                              className="flex items-center gap-2 text-left"
+                           >
                               <img src={badgeCheck} alt="" width="28" />
                               <p>{skill}</p>
                            </li>

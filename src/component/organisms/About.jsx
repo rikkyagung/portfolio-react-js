@@ -3,7 +3,10 @@ import { briefcase, task } from "../../assets";
 
 export default function About() {
    return (
-      <section id="about" className="py-8 text-center text-mangu-black">
+      <section
+         id="about"
+         className="py-8 text-center text-mangu-black dark:text-baby-powder"
+      >
          <Title subText="Get To Know" text="About Me" />
          <article className="mt-8 md:mt-10 md:grid md:grid-cols-3 md:gap-8 lg:gap-10">
             <aside className="flex flex-col gap-5 md:gap-6 lg:mr-6">

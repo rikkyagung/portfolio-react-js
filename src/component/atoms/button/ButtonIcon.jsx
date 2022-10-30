@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 export default function ButtonIcon({ url, icon }) {
    return (
       <a href={url}>
-         <button className="relative flex h-[3.3rem] w-[3.3rem] cursor-pointer items-center justify-center rounded-full border-2 border-sailor bg-transparent transition-all duration-500 hover:-translate-y-3 hover:transition-all hover:duration-500 lg:h-16 lg:w-16">
+         <button className="relative flex p-[10px] cursor-pointer items-center justify-center rounded-full border-2 border-sailor bg-transparent transition-all duration-500 hover:-translate-y-3 hover:transition-all hover:duration-500 lg:h-16 lg:w-16">
             {icon}
          </button>
       </a>

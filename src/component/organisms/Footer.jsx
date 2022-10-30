@@ -4,7 +4,7 @@ export default function Footer() {
    return (
       <footer
          id="footer"
-         className="flex flex-col items-center bg-boysenberry-shadow px-6 py-20 lg:gap-2 lg:py-6 text-mangu-black"
+         className="flex flex-col items-center bg-boysenberry-shadow px-6 py-20 text-mangu-black dark:bg-eerie-black dark:text-baby-powder lg:gap-2 lg:py-6"
       >
          <h3 className="mt-28 text-xl md:mt-28 lg:mt-24">Connect with me on</h3>
          <div className="mt-6 flex flex-wrap items-center justify-center gap-5 lg:gap-8">
@@ -13,8 +13,8 @@ export default function Footer() {
                icon={
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
-                     width="28"
-                     height="28"
+                     width="26"
+                     height="26"
                      viewBox="0 0 24 24"
                      fill="currentColor"
                   >
@@ -31,8 +31,8 @@ export default function Footer() {
                icon={
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
-                     width="28"
-                     height="28"
+                     width="26"
+                     height="26"
                      viewBox="0 0 24 24"
                      fill="currentColor"
                   >
@@ -46,8 +46,8 @@ export default function Footer() {
                icon={
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
-                     width="28"
-                     height="28"
+                     width="26"
+                     height="26"
                      viewBox="0 0 24 24"
                      fill="currentColor"
                   >
@@ -62,8 +62,8 @@ export default function Footer() {
                icon={
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
-                     width="28"
-                     height="28"
+                     width="26"
+                     height="26"
                      viewBox="0 0 24 24"
                      fill="currentColor"
                   >

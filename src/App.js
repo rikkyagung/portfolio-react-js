@@ -1,13 +1,11 @@
 import { Home } from "./component";
+import { ThemeProvider } from "./context/ThemeContext";
 
 const App = () => {
    return (
-      <main
-         id="home"
-         className="relative bg-boysenberry-shadow font-montserrat"
-      >
+      <ThemeProvider>
          <Home />
-      </main>
+      </ThemeProvider>
    );
 };
 export default App;
