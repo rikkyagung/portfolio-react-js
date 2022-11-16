@@ -1,7 +1,7 @@
 <h1 align="center">Personal Portfolio</h1>
 <p align="center">
    <a href="https://ran-agung.netlify.app/">
-      <img src="/src/assets/image/logo.webp" alt="Logo" width="90" height="90">
+      <img src="/src/assets/image/logo.webp" alt="Logo" width="150" height="150">
    </a>
    <p align="center">
       <a href="https://ran-agung.netlify.app/">View Demo</a>
