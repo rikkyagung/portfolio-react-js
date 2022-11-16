@@ -35,7 +35,7 @@ To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
 
-1. Your computer has Node js installed. You can download it from [Node JS Officially Website](https://nodejs.org/en/).
+1. Your computer has Node JS installed. You can download it from [Node JS Officially Website](https://nodejs.org/en/).
 2. Text editor (VSCode, Atom, Sublime Text, Notepad, etc).
 
 ### Installation
@@ -53,5 +53,11 @@ To get a local copy up and running, follow these simple example steps.
 2. Install Packages
 
    ```
-   npm install or yarn add
+   npm install
+   ```
+
+   or
+
+   ```
+   yarn add
    ```
