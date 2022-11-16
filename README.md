@@ -1,6 +1,12 @@
-# Personal Portfolio
-
-<a href="https://ran-agung.netlify.app/">View Demo</a>
+<h1 align="center">W-App</h1>
+<p align="center">
+   <a href="https://ran-agung.netlify.app/">
+      <img src="/src/assets/image/logo.webp" alt="Logo">
+   </a>
+   <p align="center">
+      <a href="https://ran-agung.netlify.app/">View Demo</a>
+   </p>
+</p>
 
 ## Table of Contents
 
