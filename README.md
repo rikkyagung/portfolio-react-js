@@ -1,4 +1,4 @@
-<h1 align="center">W-App</h1>
+<h1 align="center">Personal Portfolio</h1>
 <p align="center">
    <a href="https://ran-agung.netlify.app/">
       <img src="/src/assets/image/logo.webp" alt="Logo">
