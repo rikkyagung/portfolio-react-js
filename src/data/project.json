@@ -2,43 +2,43 @@
    {
       "id": 1,
       "name": "JMER",
-      "title": "JMER application helps the company handle upcoming and ongoing events and manage the room that will be used as a meeting place.",
+      "title": "The JMER application assists the company in managing upcoming and ongoing events as well as the room that will be used as a meeting space.",
       "image": "/image/JMER-01.webp",
       "url": "https://rikkyagung.github.io/clone-JMER/"
    },
    {
       "id": 2,
-      "name": "Personal Portfolio",
-      "title": "Designing and building my first dark themed portfolio website.",
-      "image": "/image/PORTFOLIO-1-01.webp",
-      "url": "https://rikkyagung.github.io/"
-   },
-   {
-      "id": 3,
       "name": "Final Project",
       "title": "Watch and play is an application that provides information about the most popular movies and games.",
       "image": "/image/SANBERCODE-01.webp",
-      "url": "https://agung-batch32.netlify.app/"
+      "url": "https://watch-and-play.vercel.app/"
    },
    {
-      "id": 4,
+      "id": 3,
       "name": "Weather App",
-      "title": "The application used to get weather forecasts at that time in an area around the world.",
+      "title": "The program used to obtain weather predictions for a given location at that moment.",
       "image": "/image/W-APP-01.webp",
       "url": "https://weather-app-agung.netlify.app/"
    },
    {
-      "id": 5,
+      "id": 4,
       "name": "To Do List App",
-      "title": "Application that can see the activities you create as in progress or those that have been completed.",
+      "title": "An application that allows you to view the activities you create as active or finished.",
       "image": "/image/TO-DO-LIST.webp",
       "url": "https://rikkyagung.github.io/todo-reactJS/"
    },
    {
-      "id": 6,
+      "id": 5,
       "name": "Teknologi.id",
       "title": "One of the most complete business publication media",
       "image": "/image/SAGARA-02.webp",
       "url": ""
+   },
+   {
+      "id": 6,
+      "name": "Shopping.id",
+      "title": "An application that provides based on your needs. You can find here anything from trendy clothing, makeup, and electronics.",
+      "image": "/image/Untitled-1.webp",
+      "url": "https://agung-ecommerce.vercel.app/"
    }
 ]
